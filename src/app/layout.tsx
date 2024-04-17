@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s | Alex Howlett - Portfolio",
     default: "Alex Howlett - Portfolio",
   },
-  description: "My portfolio of projects",
+  description: "My project portfolio website and a bit about me",
 };
 
 export default function RootLayout({
