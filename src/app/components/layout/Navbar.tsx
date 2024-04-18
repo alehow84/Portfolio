@@ -3,19 +3,19 @@ export default function Navbar() {
 
   return (
     <nav className="flex p-4 bg-gray-50">
-      <span className="bg-sky-500 hover:bg-sky-600 rounded p-3 ml-1.5 mr-1.5">
+      <span className="bg-sky-500 hover:bg-sky-600 rounded p-3 ml-1.5 mr-1.5 transition duration-150 ease-in-out">
         Home
       </span>
-      <span className="bg-sky-500 hover:bg-sky-600 rounded p-3 ml-1.5 mr-1.5">
+      <span className="bg-sky-500 hover:bg-sky-600 rounded p-3 ml-1.5 mr-1.5 transition duration-150 ease-in-out">
         About
       </span>
-      <span className="bg-sky-500 hover:bg-sky-600 rounded p-3 ml-1.5 mr-1.5">
+      <span className="bg-sky-500 hover:bg-sky-600 rounded p-3 ml-1.5 mr-1.5 transition duration-150 ease-in-out">
         Skills
       </span>
-      <span className="bg-sky-500 hover:bg-sky-600 rounded p-3 ml-1.5 mr-1.5">
+      <span className="bg-sky-500 hover:bg-sky-600 rounded p-3 ml-1.5 mr-1.5 transition duration-150 ease-in-out">
         Projects
       </span>
-      <span className="bg-sky-500 hover:bg-sky-600 rounded p-3 ml-1.5 mr-1.5">
+      <span className="bg-sky-500 hover:bg-sky-600 rounded p-3 ml-1.5 mr-1.5 transition duration-150 ease-in-out">
         Contact Me
       </span>
     </nav>

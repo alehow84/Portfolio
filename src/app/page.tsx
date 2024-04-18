@@ -2,6 +2,10 @@ import Image from "next/image";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Home from "./components/layout/Home";
+import About from "./components/layout/About";
+import Skills from "./components/layout/Skills";
+import Projects from "./components/layout/Projects";
+import Contact from "./components/layout/Contact";
 
 export default function App() {
   return (
@@ -10,6 +14,10 @@ export default function App() {
         <Navbar></Navbar>
         <main className="flex-1">
           <Home></Home>
+          <About></About>
+          <Skills></Skills>
+          <Projects></Projects>
+          <Contact></Contact>
         </main>
         <Footer></Footer>
       </div>
