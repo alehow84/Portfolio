@@ -4,7 +4,10 @@
 
 export default function Contact() {
   return (
-    <div className="flex justify-center items-center bg-cyan-800 h-screen">
+    <div
+      id="contact"
+      className="flex justify-center items-center bg-cyan-800 h-screen"
+    >
       Contact Me
     </div>
   );

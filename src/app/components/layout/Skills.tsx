@@ -4,7 +4,10 @@
 
 export default function Skills() {
   return (
-    <div className="flex justify-center items-center bg-indigo-500 h-screen">
+    <div
+      id="skills"
+      className="flex justify-center items-center bg-indigo-500 h-screen"
+    >
       Skills
     </div>
   );

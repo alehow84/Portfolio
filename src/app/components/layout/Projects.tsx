@@ -4,7 +4,10 @@
 
 export default function Projects() {
   return (
-    <div className="flex justify-center items-center bg-teal-800 h-screen">
+    <div
+      id="projects"
+      className="flex justify-center items-center bg-teal-800 h-screen"
+    >
       Projects
     </div>
   );
