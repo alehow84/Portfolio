@@ -6,6 +6,7 @@ import About from "./components/layout/About";
 import Skills from "./components/layout/Skills";
 import Projects from "./components/layout/Projects";
 import Contact from "./components/layout/Contact";
+import "./globals.css";
 
 export default function App() {
   return (

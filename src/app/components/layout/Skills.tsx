@@ -5,7 +5,7 @@
 export default function Skills() {
   return (
     <div
-      id="skills"
+      id="Skills"
       className="flex justify-center items-center bg-indigo-500 h-screen"
     >
       Skills

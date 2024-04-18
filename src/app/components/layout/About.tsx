@@ -5,7 +5,7 @@
 export default function About() {
   return (
     <div
-      id="about"
+      id="About"
       className="flex justify-center items-center bg-sky-950 h-screen"
     >
       About Me
