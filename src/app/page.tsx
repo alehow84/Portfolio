@@ -12,13 +12,13 @@ export default function App() {
   return (
     <>
       <div className="flex flex-col min-h-screen">
-        <Navbar></Navbar>
+        <Navbar />
         <main className="flex-1">
-          <Home></Home>
-          <About></About>
-          <Skills></Skills>
-          <Projects></Projects>
-          <Contact></Contact>
+          <Home />
+          <About />
+          <Skills />
+          <Projects />
+          <Contact />
         </main>
         <Footer></Footer>
       </div>
