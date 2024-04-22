@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="bg-slate-950">
       <img
-        className="w full h-44"
+        className="w-full h-44"
         src="/transitions/transition_gradient.svg"
         alt="transition"
       />

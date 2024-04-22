@@ -4,11 +4,15 @@
 
 export default function Projects() {
   return (
-    <div
-      id="Projects"
-      className="flex justify-center items-center bg-teal-800 h-screen"
-    >
-      Projects
+    <div className="bg-slate-950">
+      <img
+        className="w-full h-44"
+        src="/transitions/transition_gradient.svg"
+        alt="transition"
+      />
+      <div id="Projects" className="flex justify-center items-center h-screen">
+        Projects
+      </div>
     </div>
   );
 }
