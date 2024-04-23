@@ -6,6 +6,7 @@ export default function SocialMedia({ size }: { size: number }) {
       <a
         href="https://www.linkedin.com/in/alexandra-howlett-2b4a90136/"
         className="bg-black bg-opacity-90 p-6 rounded-full transition-all ml-1 mr-1 hover:scale-110 scale-100"
+        target="_blank"
       >
         <Image
           src="/icons/linkedIn.svg"
@@ -17,6 +18,7 @@ export default function SocialMedia({ size }: { size: number }) {
       <a
         href="https://github.com/alehow84"
         className="bg-black bg-opacity-90 p-6 rounded-full transition-all ml-1 mr-1 hover:scale-110 scale-100"
+        target="_blank"
       >
         <Image
           src="/icons/github.svg"
@@ -28,6 +30,7 @@ export default function SocialMedia({ size }: { size: number }) {
       <a
         href=""
         className="bg-black bg-opacity-90 p-6 rounded-full transition-all ml-1 mr-1 hover:scale-110 scale-100"
+        target="_blank"
       >
         <Image
           src="/icons/email.svg"
