@@ -1,6 +1,5 @@
 import SocialMedia from "@/app/static/SocialMedia";
 import Typing from "@/app/static/Typing";
-import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
   return (
@@ -10,9 +9,11 @@ export default function Home() {
           <img
             src="/images/profile-pic.png"
             alt="photo of Alex Howlett"
-            className="w-2/3 h-2/3 m-auto rounded-full mt-20 mb-20 shadow-2xl"
+            className="w-3/5 m-auto rounded-full mt-40 shadow-2xl"
           />
-          <SocialMedia size={50} />
+          <div className="mt-10 mb-20">
+            <SocialMedia size={50} />
+          </div>
         </div>
         <div className="flex-col flex-1 mr-10 ml-10">
           <h1 className="text-8xl leading-relaxed underline decoration-dotted decoration-blue-100">
@@ -21,7 +22,6 @@ export default function Home() {
           <p className="text-6xl leading-snug text-emerald-50">
             I'm a junior full stack developer &
           </p>
-          {/* <p className="text-4xl">Mother of cats</p> */}
           <Typing />
         </div>
       </div>
