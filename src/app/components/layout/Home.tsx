@@ -16,7 +16,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex-col flex-1 mr-10 ml-10">
-          <h1 className="text-8xl leading-relaxed underline decoration-dotted decoration-blue-100">
+          <h1 className="text-8xl leading-relaxed underline decoration-double decoration-blue-100">
             Hi, I'm Alex
           </h1>
           <p className="text-6xl leading-snug text-emerald-50">
