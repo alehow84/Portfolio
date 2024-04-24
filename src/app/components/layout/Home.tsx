@@ -4,7 +4,10 @@ import Typing from "@/app/static/Typing";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-row justify-center items-center bg-gradient-to-r from-gradientLeft to-gradientRight h-screen">
+      <div
+        id="Home"
+        className="flex flex-row justify-center items-center bg-gradient-to-r from-gradientLeft to-gradientRight h-screen"
+      >
         <div className="flex-col flex-1 justify-center">
           <img
             src="/images/profile-pic.png"
