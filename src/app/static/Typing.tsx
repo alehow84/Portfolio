@@ -24,3 +24,7 @@ export default function Typing() {
     />
   );
 }
+
+// export function Typing2({ sequence }: { sequence: [string, number] }) {}
+//refactoring idea -  to make the typing component resuseable, and store the sequence array in their own file
+//learn how to do this with typescript
