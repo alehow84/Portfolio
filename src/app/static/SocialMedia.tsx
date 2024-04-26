@@ -9,7 +9,7 @@ export default function SocialMedia({ size }: { size: number }) {
         target="_blank"
       >
         <Image
-          src="/icons/linkedIn.svg"
+          src="/icons/social/linkedIn.svg"
           alt="linkedIn link"
           width={size}
           height={size}
@@ -21,7 +21,7 @@ export default function SocialMedia({ size }: { size: number }) {
         target="_blank"
       >
         <Image
-          src="/icons/github.svg"
+          src="/icons/social/github.svg"
           alt="github link"
           width={size}
           height={size}
@@ -33,7 +33,7 @@ export default function SocialMedia({ size }: { size: number }) {
         target="_blank"
       >
         <Image
-          src="/icons/email.svg"
+          src="/icons/social/email.svg"
           alt="send-email link"
           width={size}
           height={size}
