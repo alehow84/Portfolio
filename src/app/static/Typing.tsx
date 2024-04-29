@@ -7,7 +7,7 @@ export default function Typing() {
       sequence={[
         "podcast enthusiast",
         500,
-        "voracious meme-consumer",
+        "consumer of memes",
         500,
         "patron of puns",
         500,
@@ -17,9 +17,11 @@ export default function Typing() {
       speed={10}
       preRenderFirstString={true}
       style={{
-        fontSize: "2.5em",
-        color: "white",
-        lineHeight: "2.3em",
+        fontSize: "0.8em",
+        color: "#BFDBFE",
+        lineHeight: "1.5em",
+        display: "block",
+        fontWeight: "bold",
       }}
       repeat={1}
     />
