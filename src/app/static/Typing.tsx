@@ -21,6 +21,7 @@ export default function Typing() {
         color: "white",
         lineHeight: "2.3em",
       }}
+      repeat={1}
     />
   );
 }

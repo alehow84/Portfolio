@@ -7,7 +7,7 @@ export default function Navbar() {
   const isAtTop = UseScrollFade();
   return (
     <nav
-      className={`sticky -mt-14 top-0 z-50 
+      className={`sticky -mt-14 top-0 z-50 text-[1.5vw]
       ${
         isAtTop
           ? "opacity-100"

@@ -1,3 +1,4 @@
+"use client";
 import SocialMedia from "@/app/static/SocialMedia";
 import Typing from "@/app/static/Typing";
 
@@ -18,13 +19,13 @@ export default function Home() {
             <SocialMedia size={50} />
           </div>
         </div>
-        <div className="flex-col flex-1 mr-10 ml-10">
-          <h1 className="text-8xl leading-relaxed underline decoration-double decoration-blue-200">
+        <div className="flex-col flex-1 mr-10 ml-10 pointer-events-none">
+          <h1 className="text-[6vw] leading-relaxed underline decoration-double decoration-blue-200">
             Hi, I'm Alex
           </h1>
-          <p className="text-6xl leading-snug text-emerald-50">
+          <div className="text-[4vw] leading-snug text-emerald-50">
             I'm a junior full stack developer &
-          </p>
+          </div>
           <Typing />
         </div>
       </div>
