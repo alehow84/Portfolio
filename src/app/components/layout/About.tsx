@@ -2,7 +2,6 @@
 
 // export const metadata: Metadata = { title: "About Me" };
 
-//refactor - move from first p About me into seperate static component "Summary" and improve semantic html"
 import Summary from "@/app/static/Summary";
 export default function About() {
   return (

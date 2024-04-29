@@ -17,11 +17,11 @@ export default function Skills() {
         alt="transition"
       />
       <div className="flex flex-col justify-center items-center h-fit">
-        <p className="text-4xl">Skills</p>
+        <p className="text-[2.25vw]">Skills</p>
         <div className="inline-flex items-center justify-center w-full">
           <hr className="w-3/4 h-1 my-8 bg-orange-300 border-0 rounded" />
         </div>
-        <div className="p-16">
+        <div className="p-16 text-[1vw]">
           <SkillsList />
         </div>
       </div>
