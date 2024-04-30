@@ -9,6 +9,10 @@ const config: Config = {
     flowbite.content(),
   ],
   theme: {
+    screens: {
+      mobile: { max: "1023px" },
+      desktop: { min: "1024px" },
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
