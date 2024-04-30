@@ -2,8 +2,7 @@
 
 // export const metadata: Metadata = { title: "About Me" };
 
-//refactor - move from first p About me into seperate static component "Summary" and improve semantic html"
-
+import Summary from "@/app/static/Summary";
 export default function About() {
   return (
     <div id="About" className="bg-slate-950">
@@ -13,12 +12,12 @@ export default function About() {
         alt="transition"
       />
       <div className="flex flex-col justify-center items-center h-fit">
-        <p className="text-4xl">About Me</p>
+        <p className="text-[2.25vw]">About Me</p>
         <div className="inline-flex items-center justify-center w-full">
           <hr className="w-3/4 h-1 my-8 bg-orange-300 border-0 rounded" />
           <div className="absolute px-4 -translate-x-1/2 bg-slate-950 left-1/2">
             <svg
-              className="w-9 h-9 text-yellow-200"
+              className="w-[2.5vw] h-[2.5vw] text-yellow-200"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -35,26 +34,10 @@ export default function About() {
           </div>
         </div>
         <div className="w-3/4">
-          <p className="flex justify-center text-xl p-2 m-6 leading-loose">
-            My professional background is in the public sector, NHS and the care
-            industry, where I have gleaned great personal satisfaction impacting
-            change both individually and on a broader scale.
-          </p>
-          <p className="flex justify-center text-xl p-2 m-6 leading-loose">
-            Having always been interested in technology, I started playing
-            around with some courses in my spare time, finally leading me to
-            take the leap and take a career break to embark on an intensive
-            software development bootcamp with Northcoders.
-          </p>
-          <p className="flex justify-center text-xl p-2 m-6 leading-loose">
-            Throughout this transformative experience I was lucky to meet some
-            inspiring and talented people, and am now eagerly persuing my first
-            developer role. I hope to channel my new-found skills into building
-            things with a positive impact and a little extra spice 🌶️
-          </p>
-          <span className="flex justify-center">
+          <Summary />
+          <div className="flex justify-center">
             <svg
-              className="w-8 h-8 text-blue-200"
+              className="w-[2.25vw] h-[2.25vw] text-blue-200"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -70,7 +53,7 @@ export default function About() {
                 d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"
               />
             </svg>
-          </span>
+          </div>
         </div>
       </div>
     </div>

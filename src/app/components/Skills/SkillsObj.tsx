@@ -1,5 +1,6 @@
 //create objects for skills and tech stack 1 & 2 containing each name and file name for the skill or tech stack
 //in Skills.tsx, for each object, iterate over and create the html structure I want
+//this is currently unused
 
 interface SkillsObj {
   name: string;
