@@ -3,6 +3,7 @@
 import MenuItem from "../menu/elements/MenuItem";
 import UseScrollFade from "@/hooks/useScrollFade";
 import Burger from "../menu/elements/Burger";
+import Close from "../menu/elements/Close";
 
 export default function Navbar() {
   const isAtTop = UseScrollFade();
@@ -21,6 +22,7 @@ export default function Navbar() {
       <MenuItem title={"Projects"} />
       <MenuItem title={"Contact"} />
       {/* <Burger /> */}
+      {/* <Close /> */}
     </nav>
   );
 }
