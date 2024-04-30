@@ -1,7 +1,8 @@
 //have to make this a client component bc hooks can only be utilised client-side
 "use client";
-import MenuItem from "../navigation/menu-item";
+import MenuItem from "../menu/elements/MenuItem";
 import UseScrollFade from "@/hooks/useScrollFade";
+import Burger from "../menu/elements/Burger";
 
 export default function Navbar() {
   const isAtTop = UseScrollFade();
@@ -19,6 +20,7 @@ export default function Navbar() {
       <MenuItem title={"Skills"} />
       <MenuItem title={"Projects"} />
       <MenuItem title={"Contact"} />
+      {/* <Burger /> */}
     </nav>
   );
 }

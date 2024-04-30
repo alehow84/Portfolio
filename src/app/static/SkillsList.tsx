@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+//need to make svg size responsive - make width of each button a vw ?
 export default function SkillsList() {
   return (
     <div className="grid grid-cols-4 gap-16">
