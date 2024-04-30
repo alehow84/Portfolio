@@ -6,7 +6,7 @@ export default function Menu() {
       <MenuItem title={"Home"} />
       <MenuItem title={"About"} />
       <MenuItem title={"Skills"} />
-      <MenuItem title={"Project"} />
+      <MenuItem title={"Projects"} />
       <MenuItem title={"Contact"} />
     </>
   );
