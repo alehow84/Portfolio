@@ -2,13 +2,12 @@
 "use client";
 import MenuItem from "../menu/elements/MenuItem";
 import UseScrollFade from "@/hooks/useScrollFade";
-import Burger from "../menu/elements/Burger";
 
 export default function Navbar() {
   const isAtTop = UseScrollFade();
   return (
     <nav
-      className={`sticky -mt-14 top-0 z-50 text-[1.5vw]
+      className={`mobile:hidden sticky -mt-14 top-0 z-50 text-[1.5vw]
       ${
         isAtTop
           ? "opacity-100"
@@ -20,7 +19,6 @@ export default function Navbar() {
       <MenuItem title={"Skills"} />
       <MenuItem title={"Projects"} />
       <MenuItem title={"Contact"} />
-      {/* <Burger /> */}
     </nav>
   );
 }
