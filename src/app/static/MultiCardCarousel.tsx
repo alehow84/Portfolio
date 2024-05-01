@@ -17,20 +17,20 @@ const MultiCarouselCard: FC = () => {
   }
 
   return (
-    <div className="flex flex-row justify-center items-center gap-7 mt-[6vh] mb-[8vh] ml-5 mr-5">
+    <div className="flex flex-row justify-center items-center mt-[6vh] mb-[8vh] ml-5 mr-5">
       <div className="w-10/12">
-        <div className="flex space-x-8 space-y-8">
+        <div className="flex gap-8">
           {data.slice(currentIndex, currentIndex + 3).map((project, index) => (
             <div
               key={index}
-              className="max-w-md bg-teal-700 border border-gray-200 rounded-xl shadow scale-100 hover:scale-110 transition duration-200 ease-in-out"
+              className="max-w-md bg-teal-700 border-2 border-orange-200 rounded-xl shadow scale-100 hover:scale-110 transition duration-200 ease-in-out"
             >
               <div>
                 <a href={project.repo} target="_blank">
                   <img
                     src={project.image}
                     alt={project.projectTitle}
-                    className="rounded-t-xl w-[100vh]"
+                    className="rounded-t-xl w-[100vw]"
                   />
 
                   <div className="flex flex-col justify-center items-center">
