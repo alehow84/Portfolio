@@ -2,17 +2,8 @@
 
 // export const metadata: Metadata = { title: "Projects" };
 
-/*
--Create json with data i want to use in my pagination reel and import it here
-- json must be an array of objects with the same structure
-- save screenshots of my projects in public file
-- for each json object:
-    -div container with rounded border to contain the "card"
-    - link tag containing an image with the project screenshot
-    - div containing a 1.project title tag 2.link tag with github repo link
-*/
-
-import { data } from "../../../../public/data/projects.json";
+"use client";
+import MultiCarouselCard from "@/app/static/MultiCardCarousel";
 
 export default function Projects() {
   return (
@@ -42,11 +33,11 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-center items-center gap-7 pt-[8vh] pb-[12vh]">
+      {/* <div className="flex flex-row justify-center items-center gap-7 pt-[8vh] pb-[12vh] ml-10 mr-10">
         {data.map((project, index) => (
           <div
             key={index}
-            className="flex h-fit max-w-md bg-emerald-700 border border-gray-200 rounded-xl shadow scale-100 hover:scale-110 transition duration-200 ease-in-out"
+            className="flex h-fit max-w-md bg-teal-700 border border-gray-200 rounded-xl shadow scale-100 hover:scale-110 transition duration-200 ease-in-out"
           >
             <div className="">
               <a href={project.repo} target="_blank">
@@ -57,14 +48,17 @@ export default function Projects() {
                 />
 
                 <div className="flex flex-col justify-center items-center">
-                  <h5 className="bold">{project.projectTitle}</h5>
-                  <p className="text-sm">{project.description}</p>
+                  <h5 className=" text-[1.5vw] text-sky-100 font-bold underline decoration-blue-400">
+                    {project.projectTitle}
+                  </h5>
+                  <p className="text-center">{project.description}</p>
                 </div>
               </a>
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
+      <MultiCarouselCard />
     </div>
   );
 }
