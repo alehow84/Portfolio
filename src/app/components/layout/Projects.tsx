@@ -12,6 +12,8 @@
     - div containing a 1.project title tag 2.link tag with github repo link
 */
 
+import { data } from "../../../../public/data/projects.json";
+
 export default function Projects() {
   return (
     <div id="Projects" className="bg-slate-950">
@@ -40,8 +42,28 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row">
-        {/* for each json object, return styling as noted in comments above */}
+      <div className="flex flex-row justify-center items-center gap-5 pt-[8vh] pb-[12vh]">
+        {data.map((project, index) => (
+          <div
+            key={index}
+            className="flex h-fit max-w-md bg-slate-600 border border-gray-200 rounded-xl shadow scale-100 hover:scale-110 transition duration-200 ease-in-out"
+          >
+            <div className="">
+              <a href={project.repo} target="_blank">
+                <img
+                  src={project.image}
+                  alt={project.projectTitle}
+                  className="rounded-t-xl w-[100vh]"
+                />
+
+                <div className="flex flex-col justify-center items-center">
+                  <h5>{project.projectTitle}</h5>
+                  Project Repo 👀
+                </div>
+              </a>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

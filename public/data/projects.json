@@ -1,22 +1,22 @@
 {
-  "projects": [
+  "data": [
     {
-      "project title": "Vanilla JS Weather app",
+      "projectTitle": "Vanilla JS Weather app",
       "repo": "https://github.com/alehow84/Vanilla-weather-app.git",
       "image": "/images/projects/Weather-app.png"
     },
     {
-      "project title": "NC News backend",
+      "projectTitle": "NC News backend",
       "repo": "https://github.com/alehow84/be-nc-news.git",
       "image": "/images/projects/NCNewsBackend.png"
     },
     {
-      "project title": "NC News frontend",
+      "projectTitle": "NC News frontend",
       "repo": "https://github.com/alehow84/fe-nc-news.git",
       "image": "/images/projects/NCNewsFrontend.png"
     },
     {
-      "project title": "Buddies - fullstack mobile plantcare app",
+      "projectTitle": "Buddies - fullstack mobile plantcare app",
       "repo": "https://github.com/codertetianka/Buddies.git",
       "image": "/images/projects/Buddies.png"
     }
