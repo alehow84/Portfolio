@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function SkillsList() {
   return (
     <div className="grid grid-cols-4 gap-16">
-      <button className="p-4 rounded-lg bg-pink-700 op-10 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-10 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/skills/programming.svg"
@@ -14,7 +14,7 @@ export default function SkillsList() {
         </div>
         Pair & Mob programming
       </button>
-      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/skills/agile.svg"
@@ -25,7 +25,7 @@ export default function SkillsList() {
         </div>
         Agile
       </button>
-      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/skills/technical-comms.svg"
@@ -36,7 +36,7 @@ export default function SkillsList() {
         </div>
         Technical Communication
       </button>
-      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/node.svg"
@@ -47,7 +47,7 @@ export default function SkillsList() {
         </div>
         Node.js
       </button>
-      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/javascript.svg"
@@ -58,7 +58,7 @@ export default function SkillsList() {
         </div>
         Javascript
       </button>
-      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/typescript.svg"
@@ -69,7 +69,7 @@ export default function SkillsList() {
         </div>
         Typescript
       </button>
-      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/html.svg"
@@ -80,7 +80,7 @@ export default function SkillsList() {
         </div>
         HTML
       </button>
-      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/css.svg"
@@ -91,7 +91,7 @@ export default function SkillsList() {
         </div>
         CSS
       </button>
-      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/tailwind.svg"
@@ -102,7 +102,7 @@ export default function SkillsList() {
         </div>
         Tailwind
       </button>
-      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/react.svg"
@@ -113,7 +113,7 @@ export default function SkillsList() {
         </div>
         React
       </button>
-      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/react-native.svg"
@@ -124,7 +124,7 @@ export default function SkillsList() {
         </div>
         React Native
       </button>
-      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <div className="bg-white rounded-full">
             <Image
@@ -137,7 +137,7 @@ export default function SkillsList() {
         </div>
         Next.js
       </button>
-      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/sql.svg"
@@ -148,7 +148,7 @@ export default function SkillsList() {
         </div>
         SQL
       </button>
-      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <div className="bg-white rounded-full">
             <Image
@@ -161,7 +161,7 @@ export default function SkillsList() {
         </div>
         Express
       </button>
-      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <div className="bg-blue-100 rounded-full p-0.5">
             <Image
@@ -174,7 +174,7 @@ export default function SkillsList() {
         </div>
         Jest
       </button>
-      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center">
+      <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <div className="bg-orange-200 rounded-full">
             <Image
