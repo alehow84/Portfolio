@@ -42,11 +42,11 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-center items-center gap-5 pt-[8vh] pb-[12vh]">
+      <div className="flex flex-row justify-center items-center gap-7 pt-[8vh] pb-[12vh]">
         {data.map((project, index) => (
           <div
             key={index}
-            className="flex h-fit max-w-md bg-slate-600 border border-gray-200 rounded-xl shadow scale-100 hover:scale-110 transition duration-200 ease-in-out"
+            className="flex h-fit max-w-md bg-emerald-700 border border-gray-200 rounded-xl shadow scale-100 hover:scale-110 transition duration-200 ease-in-out"
           >
             <div className="">
               <a href={project.repo} target="_blank">
@@ -57,8 +57,8 @@ export default function Projects() {
                 />
 
                 <div className="flex flex-col justify-center items-center">
-                  <h5>{project.projectTitle}</h5>
-                  Project Repo 👀
+                  <h5 className="bold">{project.projectTitle}</h5>
+                  <p className="text-sm">{project.description}</p>
                 </div>
               </a>
             </div>
