@@ -15,7 +15,7 @@ export default function About() {
         <p className="text-[2.25vw]">About Me</p>
         <div className="inline-flex items-center justify-center w-full">
           <hr className="w-3/4 h-1 my-8 bg-orange-300 border-0 rounded" />
-          <div className="absolute px-4 -translate-x-1/2 bg-slate-950 left-1/2">
+          <div className="absolute px-[1vw] -translate-x-1/2 bg-slate-950 left-1/2">
             <svg
               className="w-[2.5vw] h-[2.5vw] text-yellow-200"
               aria-hidden="true"
