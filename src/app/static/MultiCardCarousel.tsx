@@ -12,12 +12,13 @@ const MultiCarouselCard: FC = () => {
   const handlePrev = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + data.length) % data.length);
   };
+
   if (currentIndex > data.length - 3) {
     setCurrentIndex(0);
   }
 
   return (
-    <div className="flex flex-row justify-center items-center mt-[6vh] mb-[8vh] ml-5 mr-5">
+    <div className="flex flex-row justify-center items-center mt-[6vh] pb-[6vh] ml-5 mr-5">
       <div className="w-10/12">
         <div className="flex gap-8">
           {data.slice(currentIndex, currentIndex + 3).map((project, index) => (
