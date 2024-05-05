@@ -2,7 +2,7 @@
 
 // export const metadata: Metadata = { title: "Contact Me" };
 
-export default function Contact() {
+export default function FooterImg() {
   return (
     <div className="bg-gradient-to-r from-gradientLeft to-gradientRight">
       <img
@@ -10,9 +10,7 @@ export default function Contact() {
         src="/transitions/transition_block_colour.svg"
         alt="transition"
       />
-      <div id="Contact" className="flex justify-center items-center h-screen">
-        Contact Me
-      </div>
+      <div id="Contact" className="flex justify-center items-center h-16"></div>
     </div>
   );
 }

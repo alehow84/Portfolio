@@ -1,6 +1,7 @@
 //have to make this a client component bc hooks can only be utilised client-side
 "use client";
 import MenuItem from "../menu/elements/MenuItem";
+import ContactButton from "@/app/static/ContactButton";
 import UseScrollFade from "@/hooks/useScrollFade";
 
 export default function Navbar() {
@@ -18,7 +19,7 @@ export default function Navbar() {
       <MenuItem title={"About"} />
       <MenuItem title={"Skills"} />
       <MenuItem title={"Projects"} />
-      <MenuItem title={"Contact"} />
+      <ContactButton title={"Get in touch"} />
     </nav>
   );
 }
