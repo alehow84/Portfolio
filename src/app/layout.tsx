@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Inter, Domine } from "next/font/google";
+import { Rubik } from "next/font/google";
 import "./globals.css";
 
-// const inter = Inter({ subsets: ["latin"] });
-const domine = Domine({ subsets: ["latin"] });
+const rubik = Rubik({ subsets: ["arabic"] });
 
 export const metadata: Metadata = {
   title: {
@@ -20,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={domine.className}>{children}</body>
+      <body className={rubik.className}>{children}</body>
     </html>
   );
 }
