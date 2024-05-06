@@ -1,4 +1,5 @@
 import MenuItem from "./MenuItem";
+import ContactButton from "@/app/static/ContactButton";
 
 export default function Menu() {
   return (
@@ -7,7 +8,7 @@ export default function Menu() {
       <MenuItem title={"About"} />
       <MenuItem title={"Skills"} />
       <MenuItem title={"Projects"} />
-      <MenuItem title={"Contact"} />
+      <ContactButton title={"Get in touch"} />
     </>
   );
 }
