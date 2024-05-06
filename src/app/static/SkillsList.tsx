@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function SkillsList() {
   return (
     <div className="grid grid-cols-4 gap-16">
-      <button className="p-4 rounded-lg bg-pink-700 op-10 shadow-md inline-flex justify-center pointer-events-none">
+      <button className="flex p-4 rounded-lg bg-pink-700 op-10 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/skills/programming.svg"
@@ -12,7 +12,7 @@ export default function SkillsList() {
             height={23}
           />
         </div>
-        Pair & Mob programming
+        <div className="align-center p-2">Pair & Mob programming</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -23,7 +23,7 @@ export default function SkillsList() {
             height={20}
           />
         </div>
-        Agile
+        <div className="align-center p-2">Agile</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -34,7 +34,7 @@ export default function SkillsList() {
             height={20}
           />
         </div>
-        Technical Communication
+        <div className="align-center p-2">Technical Communication</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -45,7 +45,7 @@ export default function SkillsList() {
             height={20}
           />
         </div>
-        Node.js
+        <div className="align-center p-2">Node.js</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -56,7 +56,7 @@ export default function SkillsList() {
             height={20}
           />
         </div>
-        Javascript
+        <div className="align-center p-2">Javascript</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -67,7 +67,7 @@ export default function SkillsList() {
             height={20}
           />
         </div>
-        Typescript
+        <div className="align-center p-2">Typescript</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -78,7 +78,7 @@ export default function SkillsList() {
             height={20}
           />
         </div>
-        HTML
+        <div className="align-center p-2">HTML</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -89,7 +89,7 @@ export default function SkillsList() {
             height={20}
           />
         </div>
-        CSS
+        <div className="align-center p-2">CSS</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -100,7 +100,7 @@ export default function SkillsList() {
             height={25}
           />
         </div>
-        Tailwind
+        <div className="align-center p-2">Tailwind</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -111,7 +111,7 @@ export default function SkillsList() {
             height={23}
           />
         </div>
-        React
+        <div className="align-center p-2">React</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -122,7 +122,7 @@ export default function SkillsList() {
             height={23}
           />
         </div>
-        React Native
+        <div className="align-center p-2">React Native</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -135,7 +135,7 @@ export default function SkillsList() {
             />
           </div>
         </div>
-        Next.js
+        <div className="align-center p-2">Next.js</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -146,7 +146,7 @@ export default function SkillsList() {
             height={25}
           />
         </div>
-        SQL
+        <div className="align-center p-2">SQL</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -159,7 +159,7 @@ export default function SkillsList() {
             />
           </div>
         </div>
-        Express
+        <div className="align-center p-2">Express</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -172,7 +172,7 @@ export default function SkillsList() {
             />
           </div>
         </div>
-        Jest
+        <div className="align-center p-2">Jest</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -185,7 +185,7 @@ export default function SkillsList() {
             />
           </div>
         </div>
-        Firebase
+        <div className="align-center p-2">Firebase</div>
       </button>
     </div>
   );
