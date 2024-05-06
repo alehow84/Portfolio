@@ -27,7 +27,7 @@ export default function SocialMedia({ size }: { size: number }) {
           height={size}
         />
       </a>
-      <a
+      {/* <a
         href=""
         className="bg-black bg-opacity-90 p-6 rounded-full transition-all ml-1 mr-1 hover:scale-110 scale-100"
         target="_blank"
@@ -38,9 +38,7 @@ export default function SocialMedia({ size }: { size: number }) {
           width={size}
           height={size}
         />
-      </a>
+      </a> */}
     </div>
   );
 }
-
-//make sure to render the SocialMedia Component in Home and Footer Components
