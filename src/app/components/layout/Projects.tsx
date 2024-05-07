@@ -1,20 +1,16 @@
-// import { Metadata } from "next";
-
-// export const metadata: Metadata = { title: "Projects" };
-
 "use client";
-import MultiCarouselCard from "@/app/static/MultiCardCarousel";
+import ProjectCards from "@/app/static/ProjectCards";
 
 export default function Projects() {
   return (
     <div id="Projects" className="bg-slate-950">
       <img
-        className="w-full h-44"
+        className="w-full h-36"
         src="/transitions/transition_gradient.svg"
         alt="transition"
       />
       <div className="flex flex-col justify-center items-center h-fit">
-        <p className="text-[2.25vw]">Projects</p>
+        <h2 className="text-[2.25vw]">Projects</h2>
         <div className="inline-flex items-center justify-center w-full">
           <hr className="w-3/4 h-1 my-8 bg-orange-300 border-0 rounded" />
           <div className="absolute px-[1vw] -translate-x-1/2 bg-slate-950 left-1/2">
@@ -33,32 +29,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      {/* <div className="flex flex-row justify-center items-center gap-7 pt-[8vh] pb-[12vh] ml-10 mr-10">
-        {data.map((project, index) => (
-          <div
-            key={index}
-            className="flex h-fit max-w-md bg-teal-700 border border-gray-200 rounded-xl shadow scale-100 hover:scale-110 transition duration-200 ease-in-out"
-          >
-            <div className="">
-              <a href={project.repo} target="_blank">
-                <img
-                  src={project.image}
-                  alt={project.projectTitle}
-                  className="rounded-t-xl w-[100vh]"
-                />
-
-                <div className="flex flex-col justify-center items-center">
-                  <h5 className=" text-[1.5vw] text-sky-100 font-bold underline decoration-blue-400">
-                    {project.projectTitle}
-                  </h5>
-                  <p className="text-center">{project.description}</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        ))}
-      </div> */}
-      <MultiCarouselCard />
+      <ProjectCards />
     </div>
   );
 }

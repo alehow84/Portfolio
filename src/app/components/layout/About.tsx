@@ -1,18 +1,14 @@
-// import { Metadata } from "next";
-
-// export const metadata: Metadata = { title: "About Me" };
-
 import Summary from "@/app/static/Summary";
 export default function About() {
   return (
     <div id="About" className="bg-slate-950">
       <img
-        className="w-full h-44"
+        className="w-full h-36"
         src="/transitions/transition_gradient.svg"
         alt="transition"
       />
       <div className="flex flex-col justify-center items-center h-fit">
-        <p className="text-[2.25vw]">About Me</p>
+        <h2 className="text-[2.25vw]">About Me</h2>
         <div className="inline-flex items-center justify-center w-full">
           <hr className="w-3/4 h-1 my-8 bg-orange-300 border-0 rounded" />
           <div className="absolute px-[1vw] -translate-x-1/2 bg-slate-950 left-1/2">

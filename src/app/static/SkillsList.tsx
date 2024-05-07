@@ -3,27 +3,27 @@ import Image from "next/image";
 export default function SkillsList() {
   return (
     <div className="grid grid-cols-4 gap-16">
-      <button className="p-4 rounded-lg bg-pink-700 op-10 shadow-md inline-flex justify-center pointer-events-none">
+      <button className="flex p-4 rounded-lg bg-pink-700 op-10 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/skills/programming.svg"
-            alt="pair & mob programming"
+            alt="pair & mob programming icon"
             width={23}
             height={23}
           />
         </div>
-        Pair & Mob programming
+        <div className="align-center p-2">Pair & Mob programming</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/skills/agile.svg"
-            alt="pair & mob agile"
+            alt="agile icon"
             width={20}
             height={20}
           />
         </div>
-        Agile
+        <div className="align-center p-2">Agile</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -34,158 +34,158 @@ export default function SkillsList() {
             height={20}
           />
         </div>
-        Technical Communication
+        <div className="align-center p-2">Technical Communication</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/node.svg"
-            alt="node.js"
+            alt="node.js icon"
             width={20}
             height={20}
           />
         </div>
-        Node.js
+        <div className="align-center p-2">Node.js</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/javascript.svg"
-            alt="javascript"
+            alt="javascript icon"
             width={20}
             height={20}
           />
         </div>
-        Javascript
+        <div className="align-center p-2">Javascript</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/typescript.svg"
-            alt="typescript"
+            alt="typescript icon"
             width={20}
             height={20}
           />
         </div>
-        Typescript
+        <div className="align-center p-2">Typescript</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/html.svg"
-            alt="html"
+            alt="html icon"
             width={20}
             height={20}
           />
         </div>
-        HTML
+        <div className="align-center p-2">HTML</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/css.svg"
-            alt="css"
+            alt="css icon"
             width={20}
             height={20}
           />
         </div>
-        CSS
+        <div className="align-center p-2">CSS</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/tailwind.svg"
-            alt="tailwind"
+            alt="tailwind icon"
             width={25}
             height={25}
           />
         </div>
-        Tailwind
+        <div className="align-center p-2">Tailwind</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/react.svg"
-            alt="react"
+            alt="react icon"
             width={23}
             height={23}
           />
         </div>
-        React
+        <div className="align-center p-2">React</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/react-native.svg"
-            alt="react-native"
+            alt="react-native icon"
             width={23}
             height={23}
           />
         </div>
-        React Native
+        <div className="align-center p-2">React Native</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <div className="bg-white rounded-full">
             <Image
               src="/icons/techstack/next-js.svg"
-              alt="next-js"
+              alt="next-js icon"
               width={24}
               height={24}
             />
           </div>
         </div>
-        Next.js
+        <div className="align-center p-2">Next.js</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/sql.svg"
-            alt="postgressql"
+            alt="postgressql icon"
             width={25}
             height={25}
           />
         </div>
-        SQL
+        <div className="align-center p-2">SQL</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <div className="bg-white rounded-full">
             <Image
               src="/icons/techstack/express.svg"
-              alt="express"
+              alt="express icon"
               width={23}
               height={23}
             />
           </div>
         </div>
-        Express
+        <div className="align-center p-2">Express</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <div className="bg-blue-100 rounded-full p-0.5">
             <Image
               src="/icons/techstack/jest.svg"
-              alt="jest"
+              alt="jest icon"
               width={23}
               height={23}
             />
           </div>
         </div>
-        Jest
+        <div className="align-center p-2">Jest</div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <div className="bg-orange-200 rounded-full">
             <Image
               src="/icons/techstack/firebase.svg"
-              alt="firebase"
+              alt="firebase icon"
               width={23}
               height={23}
             />
           </div>
         </div>
-        Firebase
+        <div className="align-center p-2">Firebase</div>
       </button>
     </div>
   );
