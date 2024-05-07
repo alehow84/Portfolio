@@ -1,7 +1,3 @@
-// import { Metadata } from "next";
-
-// export const metadata: Metadata = { title: "Projects" };
-
 "use client";
 import ProjectCards from "@/app/static/ProjectCards";
 
@@ -9,7 +5,7 @@ export default function Projects() {
   return (
     <div id="Projects" className="bg-slate-950">
       <img
-        className="w-full h-44"
+        className="w-full h-36"
         src="/transitions/transition_gradient.svg"
         alt="transition"
       />

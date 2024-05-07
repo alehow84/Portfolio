@@ -1,6 +1,3 @@
-// import { Metadata } from "next";
-
-// export const metadata: Metadata = { title: "Skills" };
 import SkillsList from "@/app/static/SkillsList";
 
 //refactoring - make the returning of the Image into a function that reads the files in the icons/techstack file so i am not repeating code
@@ -12,7 +9,7 @@ export default function Skills() {
       className="bg-gradient-to-r from-gradientLeft to-gradientRight"
     >
       <img
-        className="w-full h-44"
+        className="w-full h-36"
         src="/transitions/transition_block_colour.svg"
         alt="transition"
       />

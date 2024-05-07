@@ -1,13 +1,9 @@
-// import { Metadata } from "next";
-
-// export const metadata: Metadata = { title: "About Me" };
-
 import Summary from "@/app/static/Summary";
 export default function About() {
   return (
     <div id="About" className="bg-slate-950">
       <img
-        className="w-full h-44"
+        className="w-full h-36"
         src="/transitions/transition_gradient.svg"
         alt="transition"
       />
