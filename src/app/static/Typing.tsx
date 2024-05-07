@@ -23,7 +23,7 @@ export default function Typing() {
         display: "block",
         fontWeight: "bold",
       }}
-      repeat={1}
+      repeat={2}
     />
   );
 }

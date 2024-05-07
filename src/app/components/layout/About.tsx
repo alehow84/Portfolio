@@ -12,7 +12,7 @@ export default function About() {
         alt="transition"
       />
       <div className="flex flex-col justify-center items-center h-fit">
-        <p className="text-[2.25vw]">About Me</p>
+        <h2 className="text-[2.25vw]">About Me</h2>
         <div className="inline-flex items-center justify-center w-full">
           <hr className="w-3/4 h-1 my-8 bg-orange-300 border-0 rounded" />
           <div className="absolute px-[1vw] -translate-x-1/2 bg-slate-950 left-1/2">

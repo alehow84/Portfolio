@@ -1,4 +1,7 @@
 "use client";
+
+//not in use atm - displays project cards as a 3 card carousel. Display not responsive.
+
 import { useState, FC } from "react";
 import { data } from "../../../public/data/projects.json";
 

@@ -1,28 +1,56 @@
 {
   "data": [
     {
-      "projectTitle": "Vanilla JS Weather app",
-      "repo": "https://github.com/alehow84/Vanilla-weather-app.git",
-      "image": "/images/projects/Weather-app.png",
-      "description": "A weather app utilising data from a pre-existing weather API"
-    },
-    {
-      "projectTitle": "NC News backend",
-      "repo": "https://github.com/alehow84/be-nc-news.git",
-      "image": "/images/projects/NCNewsBackend.png",
-      "description": "The backend to providing application data for NC News frontend"
+      "projectTitle": "Buddies",
+      "repo": "https://github.com/codertetianka/Buddies.git",
+      "image": "/images/projects/Buddies.png",
+      "description": "A fullstack mobile app to help plant-lovers care for their plants",
+      "tech": [
+        "React Native",
+        "Expo",
+        "Firebase",
+        "Node.js",
+        "Stylesheet styling method",
+        "Perenual API",
+        "Plant.id API"
+      ]
     },
     {
       "projectTitle": "NC News frontend",
       "repo": "https://github.com/alehow84/fe-nc-news.git",
       "image": "/images/projects/NCNewsFrontend.png",
-      "description": "The frontend CRUD web app for NC News backend"
+      "description": "The frontend CRUD web app for NC News backend",
+      "tech": ["React", "Javascript", "CSS", "Bootstrap", "Netlify"]
     },
     {
-      "projectTitle": "Buddies",
-      "repo": "https://github.com/codertetianka/Buddies.git",
-      "image": "/images/projects/Buddies.png",
-      "description": "A fullstack mobile app to help plant-lovers care for their plants"
+      "projectTitle": "NC News backend",
+      "repo": "https://github.com/alehow84/be-nc-news.git",
+      "image": "/images/projects/NCNewsBackend.png",
+      "description": "The backend to providing application data for NC News frontend",
+      "tech": [
+        "Node.js",
+        "PostgresSql",
+        "PG Format",
+        "Express",
+        "Dotenv",
+        "Jest",
+        "Supertest",
+        "Render"
+      ]
+    },
+    {
+      "projectTitle": "Vanilla JS Weather app",
+      "repo": "https://github.com/alehow84/Vanilla-weather-app.git",
+      "image": "/images/projects/Weather-app.png",
+      "description": "A weather app utilising data from a pre-existing weather API",
+      "tech": [
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Axios",
+        "SheCodes Weather API",
+        "Netlify"
+      ]
     }
   ]
 }

@@ -1,5 +1,11 @@
 "use client";
 
+/*
+  -use effect listening to rerender when isContactOpen changes, inside, conditional logic, if isContactOpen is true, add class overflow-y-hidden
+  - else remove that class
+  - render the contact button
+  */
+
 import { useGlobalState } from "../contexts/GlobalStateContext";
 import { useEffect } from "react";
 
@@ -18,14 +24,6 @@ export default function ContactButton({ title }: { title: string }) {
       document.body.classList.remove("overflow-y-hidden");
     }
   }, [isContactOpen]);
-
-  /*
-  //make sure when i render contact button elsewhere, i include a title prop
-  -use effect listening to rerender when isContactOpen changes, inside, conditional logic, if isContactOpen is true, add class overflow-y-hidden
-  - else remove that class
-  - render the contact button
-  
-  */
 
   return (
     <button>

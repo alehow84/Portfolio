@@ -17,7 +17,7 @@ export default function Skills() {
         alt="transition"
       />
       <div className="flex flex-col justify-center items-center h-fit">
-        <p className="text-[2.25vw]">Skills</p>
+        <h2 className="text-[2.25vw]">Skills</h2>
         <div className="inline-flex items-center justify-center w-full">
           <hr className="w-3/4 h-1 my-8 bg-orange-300 border-0 rounded" />
         </div>

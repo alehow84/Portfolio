@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import "./globals.css";
 
-const rubik = Rubik({ subsets: ["arabic"] });
+const rubik = Rubik({ subsets: ["hebrew"] });
 
 export const metadata: Metadata = {
   title: {

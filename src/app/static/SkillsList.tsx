@@ -7,7 +7,7 @@ export default function SkillsList() {
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/skills/programming.svg"
-            alt="pair & mob programming"
+            alt="pair & mob programming icon"
             width={23}
             height={23}
           />
@@ -18,7 +18,7 @@ export default function SkillsList() {
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/skills/agile.svg"
-            alt="pair & mob agile"
+            alt="agile icon"
             width={20}
             height={20}
           />
@@ -40,7 +40,7 @@ export default function SkillsList() {
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/node.svg"
-            alt="node.js"
+            alt="node.js icon"
             width={20}
             height={20}
           />
@@ -51,7 +51,7 @@ export default function SkillsList() {
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/javascript.svg"
-            alt="javascript"
+            alt="javascript icon"
             width={20}
             height={20}
           />
@@ -62,7 +62,7 @@ export default function SkillsList() {
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/typescript.svg"
-            alt="typescript"
+            alt="typescript icon"
             width={20}
             height={20}
           />
@@ -73,7 +73,7 @@ export default function SkillsList() {
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/html.svg"
-            alt="html"
+            alt="html icon"
             width={20}
             height={20}
           />
@@ -84,7 +84,7 @@ export default function SkillsList() {
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/css.svg"
-            alt="css"
+            alt="css icon"
             width={20}
             height={20}
           />
@@ -95,7 +95,7 @@ export default function SkillsList() {
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/tailwind.svg"
-            alt="tailwind"
+            alt="tailwind icon"
             width={25}
             height={25}
           />
@@ -106,7 +106,7 @@ export default function SkillsList() {
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/react.svg"
-            alt="react"
+            alt="react icon"
             width={23}
             height={23}
           />
@@ -117,7 +117,7 @@ export default function SkillsList() {
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/react-native.svg"
-            alt="react-native"
+            alt="react-native icon"
             width={23}
             height={23}
           />
@@ -129,7 +129,7 @@ export default function SkillsList() {
           <div className="bg-white rounded-full">
             <Image
               src="/icons/techstack/next-js.svg"
-              alt="next-js"
+              alt="next-js icon"
               width={24}
               height={24}
             />
@@ -141,7 +141,7 @@ export default function SkillsList() {
         <div className="mobile:hidden p-2">
           <Image
             src="/icons/techstack/sql.svg"
-            alt="postgressql"
+            alt="postgressql icon"
             width={25}
             height={25}
           />
@@ -153,7 +153,7 @@ export default function SkillsList() {
           <div className="bg-white rounded-full">
             <Image
               src="/icons/techstack/express.svg"
-              alt="express"
+              alt="express icon"
               width={23}
               height={23}
             />
@@ -166,7 +166,7 @@ export default function SkillsList() {
           <div className="bg-blue-100 rounded-full p-0.5">
             <Image
               src="/icons/techstack/jest.svg"
-              alt="jest"
+              alt="jest icon"
               width={23}
               height={23}
             />
@@ -179,7 +179,7 @@ export default function SkillsList() {
           <div className="bg-orange-200 rounded-full">
             <Image
               src="/icons/techstack/firebase.svg"
-              alt="firebase"
+              alt="firebase icon"
               width={23}
               height={23}
             />
