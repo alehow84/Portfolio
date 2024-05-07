@@ -1,6 +1,7 @@
-import { data } from "../../../public/data/projects.json";
+import projectData from "../../../public/data/projects.json";
 
 export default function ProjectCards() {
+  const { data } = projectData;
   return (
     <div className="flex justify-center items-center mt-[6vh] pb-[6vh] ml-5 mr-5">
       <div className="w-10/12">
