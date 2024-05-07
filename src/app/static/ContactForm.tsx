@@ -7,8 +7,8 @@ export default function ContactForm() {
         </h2>
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-50 sm:text-xl">
           Have some feedback about this site or one of my projects? Want my CV?
-          Or perhaps you'd just like to chew over the meaning of life? Drop me a
-          message!
+          Or perhaps you&apos;d just like to chew over the meaning of life? Drop
+          me a message!
         </p>
         <form
           action="https://formsubmit.co/ddfb62a64bb8cc3a959f9915c4d377e0"

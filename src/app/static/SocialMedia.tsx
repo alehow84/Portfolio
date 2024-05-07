@@ -27,18 +27,6 @@ export default function SocialMedia({ size }: { size: number }) {
           height={size}
         />
       </a>
-      {/* <a
-        href=""
-        className="bg-black bg-opacity-90 p-6 rounded-full transition-all ml-1 mr-1 hover:scale-110 scale-100"
-        target="_blank"
-      >
-        <Image
-          src="/icons/social/email.svg"
-          alt="send-email link"
-          width={size}
-          height={size}
-        />
-      </a> */}
     </div>
   );
 }

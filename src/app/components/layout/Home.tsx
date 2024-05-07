@@ -20,10 +20,10 @@ export default function Home() {
       </div>
       <div className="flex-col flex-1 mr-10 ml-10 mb-24 pointer-events-none mobile:mb-0">
         <h1 className="text-[6vw] leading-relaxed underline decoration-double decoration-blue-200">
-          Hi, I'm Alex
+          Hi, I&apos;m Alex
         </h1>
         <div className="text-[4vw] leading-snug text-emerald-50 mobile:pb-10 ">
-          I'm a junior full stack developer &
+          I&apos;m a junior full stack developer &
           <Typing />
         </div>
       </div>
