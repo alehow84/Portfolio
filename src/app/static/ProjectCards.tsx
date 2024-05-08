@@ -20,11 +20,11 @@ export default function ProjectCards() {
                   />
 
                   <div className="flex flex-col justify-center items-center">
-                    <h3 className=" text-[1.5vw] font-bold underline decoration-double decoration-pink-300">
+                    <h3 className=" desktop:text-xl font-bold underline decoration-double decoration-pink-300 mobile:text-2xl">
                       {project.projectTitle}
                     </h3>
 
-                    <p className="text-center text-white text-[1.25vw] m-1">
+                    <p className="desktop:text-lg text-center text-white m-1 mobile:text-md">
                       {project.description}
                     </p>
                   </div>
@@ -32,7 +32,7 @@ export default function ProjectCards() {
                     {project.tech.map((tech, index) => (
                       <div
                         key={index}
-                        className="text-[1vw] text-white bg-pink-800 bg-opacity-75 rounded-lg p-1 m-1.5 shadow-md"
+                        className="desktop:text-md text-white bg-pink-800 bg-opacity-75 rounded-lg p-1 m-1.5 shadow-md mobile:text-xs"
                       >
                         {tech}
                       </div>
