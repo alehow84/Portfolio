@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div id="Projects" className="bg-slate-950">
       <img
-        className="w-full h-36"
+        className="w-full h-36 mobile:h-20"
         src="/transitions/transition_gradient.svg"
         alt="transition"
       />

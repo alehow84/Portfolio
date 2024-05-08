@@ -3,6 +3,10 @@ import SocialMedia from "@/app/static/SocialMedia";
 import Typing from "@/app/static/Typing";
 
 export default function Home() {
+  const imageStyle = {
+    border: "1px solid #fff",
+  };
+
   return (
     <div
       id="Home"
@@ -14,6 +18,7 @@ export default function Home() {
           alt="photo of Alex Howlett"
           className="w-3/5 m-auto rounded-full mt-28 shadow-2xl mobile:w-2/5 mobile:mt-14"
         />
+
         <div className="mt-10 mb-28 mobile:hidden">
           <SocialMedia size={50} />
         </div>
