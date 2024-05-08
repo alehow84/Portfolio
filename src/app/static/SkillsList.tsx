@@ -2,7 +2,7 @@ import Image from "next/image";
 //need to make svg size responsive - make width of each button a vw ?
 export default function SkillsList() {
   return (
-    <div className="grid grid-cols-4 gap-16">
+    <div className="grid grid-cols-4 desktop:gap-11 mobile:gap-4">
       <button className="flex p-4 rounded-lg bg-pink-700 op-10 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
           <Image
@@ -12,7 +12,9 @@ export default function SkillsList() {
             height={23}
           />
         </div>
-        <div className="align-center p-2">Pair & Mob programming</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          Pair & Mob programming
+        </div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -23,7 +25,9 @@ export default function SkillsList() {
             height={20}
           />
         </div>
-        <div className="align-center p-2">Agile</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          Agile
+        </div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -34,7 +38,9 @@ export default function SkillsList() {
             height={20}
           />
         </div>
-        <div className="align-center p-2">Technical Communication</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          Technical Communication
+        </div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -45,7 +51,9 @@ export default function SkillsList() {
             height={20}
           />
         </div>
-        <div className="align-center p-2">Node.js</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          Node.js
+        </div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -56,7 +64,9 @@ export default function SkillsList() {
             height={20}
           />
         </div>
-        <div className="align-center p-2">Javascript</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          Javascript
+        </div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -67,7 +77,9 @@ export default function SkillsList() {
             height={20}
           />
         </div>
-        <div className="align-center p-2">Typescript</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          Typescript
+        </div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -78,7 +90,9 @@ export default function SkillsList() {
             height={20}
           />
         </div>
-        <div className="align-center p-2">HTML</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          HTML
+        </div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -89,7 +103,9 @@ export default function SkillsList() {
             height={20}
           />
         </div>
-        <div className="align-center p-2">CSS</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          CSS
+        </div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -100,7 +116,9 @@ export default function SkillsList() {
             height={25}
           />
         </div>
-        <div className="align-center p-2">Tailwind</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          Tailwind
+        </div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -111,7 +129,9 @@ export default function SkillsList() {
             height={23}
           />
         </div>
-        <div className="align-center p-2">React</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          React
+        </div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -122,7 +142,9 @@ export default function SkillsList() {
             height={23}
           />
         </div>
-        <div className="align-center p-2">React Native</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          React Native
+        </div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -135,7 +157,9 @@ export default function SkillsList() {
             />
           </div>
         </div>
-        <div className="align-center p-2">Next.js</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          Next.js
+        </div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -146,7 +170,9 @@ export default function SkillsList() {
             height={25}
           />
         </div>
-        <div className="align-center p-2">SQL</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          SQL
+        </div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -159,7 +185,9 @@ export default function SkillsList() {
             />
           </div>
         </div>
-        <div className="align-center p-2">Express</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          Express
+        </div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -172,7 +200,9 @@ export default function SkillsList() {
             />
           </div>
         </div>
-        <div className="align-center p-2">Jest</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          Jest
+        </div>
       </button>
       <button className="p-4 rounded-lg bg-pink-700 op-65 shadow-md inline-flex justify-center pointer-events-none">
         <div className="mobile:hidden p-2">
@@ -185,7 +215,9 @@ export default function SkillsList() {
             />
           </div>
         </div>
-        <div className="align-center p-2">Firebase</div>
+        <div className="text-ellipsis overflow-hidden align-center desktop:p-2 mobile:p-0.25">
+          Firebase
+        </div>
       </button>
     </div>
   );

@@ -5,12 +5,12 @@ export default function Projects() {
   return (
     <div id="Projects" className="bg-slate-950">
       <img
-        className="w-full h-36"
+        className="w-full h-36 mobile:h-20"
         src="/transitions/transition_gradient.svg"
         alt="transition"
       />
       <div className="flex flex-col justify-center items-center h-fit">
-        <h2 className="text-[2.25vw]">Projects</h2>
+        <h2 className="desktop:text-4xl mobile:text-3xl">Projects</h2>
         <div className="inline-flex items-center justify-center w-full">
           <hr className="w-3/4 h-1 my-8 bg-orange-300 border-0 rounded" />
           <div className="absolute px-[1vw] -translate-x-1/2 bg-slate-950 left-1/2">

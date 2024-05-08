@@ -3,7 +3,7 @@ export default function FooterImg() {
     <>
       <div className="bg-gradient-to-r from-gradientLeft to-gradientRight">
         <img
-          className="w-full h-36"
+          className="w-full h-36 mobile:h-20"
           src="/transitions/transition_block_colour.svg"
           alt="transition"
         />
