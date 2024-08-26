@@ -11,7 +11,7 @@ If you want to play around with the code locally:
 2. Fork and then Clone this repo to your local machine
 
 ```
-git clone https://github.com/alehow84/be-nc-news.git
+git clone https://github.com/alehow84/Portfolio.git
 ```
 3. Navigate to the project directory & install the dependencies
 
